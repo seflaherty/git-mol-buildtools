@@ -12,4 +12,5 @@ TL;DR;
 a=1
 b=2
 c="`expr $a + $b`"
-echo $c is the product of $a plus $b
+l="============================"
+echo "\t $l \n\t $c is the product of $a plus $b \n\t $l"
